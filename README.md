@@ -14,4 +14,4 @@ Plus n8n workflow suites (AI news digests, infrastructure monitoring, weekly rep
 
 **Stack:** Python · Flask · n8n · Telegram Bot API · Claude/OpenAI-compatible LLM APIs · React · SQLite · Docker · Linux
 
-📫 vadikrap13@gmail.com
+📫 simclup13@gmail.com
