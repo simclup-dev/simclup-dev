@@ -1,16 +1,17 @@
-## Hi, I'm Vadym 👋
+## Hi, I'm Vadym
 
-I build automations, bots, and AI integrations — and run everything I build in production on my own homelab (32 Docker services and counting).
+I build and harden small automation systems: n8n workflows, AI agents, Telegram bots, API integrations, and self-hosted tools that have to keep working after the demo.
 
-**What's running right now:**
+My best lane is reliability work: finding why an automation silently fails, why a workflow behaves differently in production, or why an AI agent does not stop when it should.
 
-| Project | What it does |
+**Selected projects:**
+
+| Project | What it shows |
 |---|---|
-| [storyteller-reader](https://github.com/simclup-dev/storyteller-reader) | Synchronized audiobook reader PWA — karaoke word highlighting, offline-first, ~9,600 lines of vanilla JS |
+| [storyteller-reader](https://github.com/simclup-dev/storyteller-reader) | Synchronized audiobook reader PWA — word-level audio sync, walk mode, encrypted credential storage, offline-first service worker |
 | [p2p-monitor](https://github.com/simclup-dev/p2p-monitor) | 24/7 Binance P2P market monitor — 59k+ records, best-hour statistics, Telegram alerts |
-| [wow-ah-tracker](https://github.com/simclup-dev/wow-ah-tracker) | Price intelligence across 175 game markets — hourly API collection, 1.9M+ price points |
+| [wow-ah-tracker](https://github.com/simclup-dev/wow-ah-tracker) | Price intelligence across 175 game markets — hourly API collection, 1.9M+ price points, Flask + React dashboard |
 
-Plus n8n workflow suites (AI news digests, infrastructure monitoring, weekly reports — 2,600+ executions) and LLM integrations with streaming, session memory, and cost control.
+Other private/self-hosted work includes n8n workflow suites, production callback fixes, Docker deployments, reverse-proxy setup, and AI gateway debugging.
 
-**Stack:** Python · Flask · n8n · Telegram Bot API · Claude/OpenAI-compatible LLM APIs · React · SQLite · Docker · Linux
-
+**Stack:** Python · Flask · n8n · Telegram Bot API · OpenAI-compatible LLM APIs · React · SQLite · Docker · Linux · Nginx
