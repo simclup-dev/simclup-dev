@@ -1,17 +1,33 @@
 ## Hi, I'm Vadym
 
-I build and harden small automation systems: n8n workflows, AI agents, Telegram bots, API integrations, and self-hosted tools that have to keep working after the demo.
+I build and fix small automation systems: n8n workflows, AI agents, Telegram bots, API integrations, and self-hosted tools that need to keep working after the demo.
 
-My best lane is reliability work: finding why an automation silently fails, why a workflow behaves differently in production, or why an AI agent does not stop when it should.
+Most of my work sits somewhere between development and troubleshooting:
+- automations that break in production
+- workflows that behave differently on the server than they did locally
+- bots and integrations that need real debugging, not just a quick patch
+- self-hosted setups that should be stable, simple, and maintainable
 
-**Selected projects:**
+I'm especially comfortable with reliability work: finding the real failure point, cleaning up the logic, and getting the system back into a state where it can run normally.
+
+**What I usually work on**
+- n8n workflow builds and fixes
+- Telegram bots and callback flows
+- API integrations and automation logic
+- AI-powered tools and agent workflows
+- Dockerized self-hosted services
+- production debugging and incident cleanup
+
+**Selected projects**
 
 | Project | What it shows |
 |---|---|
-| [storyteller-reader](https://github.com/simclup-dev/storyteller-reader) | Synchronized audiobook reader PWA — word-level audio sync, walk mode, encrypted credential storage, offline-first service worker |
-| [p2p-monitor](https://github.com/simclup-dev/p2p-monitor) | 24/7 Binance P2P market monitor — 59k+ records, best-hour statistics, Telegram alerts |
-| [wow-ah-tracker](https://github.com/simclup-dev/wow-ah-tracker) | Price intelligence across 175 game markets — hourly API collection, 1.9M+ price points, Flask + React dashboard |
+| [subscription-tracker](https://github.com/simclup-dev/subscription-tracker) | Self-hosted subscription and usage tracker with provider integrations, Telegram reporting, Docker deployment, and production-oriented service design |
+| [n8n-reliability-fixes](https://github.com/simclup-dev/n8n-reliability-fixes) | Real production n8n fixes: workflow versioning traps, trigger reliability issues, state handling, callback flows, and safer operational patterns |
+| [companion](https://github.com/simclup-dev/companion) | AI-powered Telegram companion bot with reminders, scheduling logic, timezone handling, and production debugging around message workflows |
+| [storyteller-reader](https://github.com/simclup-dev/storyteller-reader) | Synchronized audiobook reader PWA with word-level audio sync, offline-first behavior, encrypted credential storage, and walk mode UX |
 
-Other private/self-hosted work includes n8n workflow suites, production callback fixes, Docker deployments, reverse-proxy setup, and AI gateway debugging.
+A few other things I've built or maintained include internal workflow tools, monitoring scripts, dashboards, and self-hosted services that were designed to solve a real operational problem, not just look good in a repo.
 
-**Stack:** Python · Flask · n8n · Telegram Bot API · OpenAI-compatible LLM APIs · React · SQLite · Docker · Linux · Nginx
+**Stack**
+Python · Flask · n8n · Telegram Bot API · REST APIs · OpenAI-compatible LLM APIs · SQLite · Docker · Linux · Nginx · React · JavaScript
